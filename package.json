@@ -1,24 +1,25 @@
 {
-  "name": "playwright-challenge",
+  "name": "playwright-framework-assessment",
   "version": "1.0.0",
   "description": "Playwright JS test framework for Capitec assessment",
   "scripts": {
-    "test": "npx playwright test",                  
-    "test:ui": "npx playwright test tests/saucedemoUi", 
-    "test:api": "npx playwright test tests/bookerApi",        
-    "test:headful": "npx playwright test --headed",     
-    "report:html": "npx playwright show-report",       
-    "clean:reports": "rimraf playwright-report monocart-report" 
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/saucedemoUi",
+    "test:api": "npx playwright test tests/bookerApi",
+    "test:headful": "npx playwright test --headed",
+    "report:html": "npx playwright show-report",
+    "clean:reports": "rimraf playwright-report monocart-report"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.0",
-    "monocart-reporter": "^1.4.1",
     "dotenv": "^16.0.0",
+    "monocart-reporter": "^1.4.1",
     "rimraf": "^5.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "monocart": "^1.1.3"
+  },
   "engines": {
     "node": ">=18"
   }
 }
-
