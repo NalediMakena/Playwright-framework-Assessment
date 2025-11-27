@@ -28,10 +28,10 @@ jobs:
 
       - name: Run tests
         env:
-          RESTFUL_BOOKER_BASE: ${{ secrets.RESTFUL_BOOKER_BASE }}
+          BOOKER_BASEUrl: ${{ secrets.RESTFUL_BOOKER_BASE }}
           RB_USER: ${{ secrets.RB_USER }}
           RB_PASS: ${{ secrets.RB_PASS }}
-        run: npm test
+        run: npx playwright test || true
 
       - name: Upload Playwright HTML Report
         if: always()

@@ -1,5 +1,21 @@
-{
-    "restfulbooker": {
-    "admin": { "username": "admin", "password": "password123" }
+
+ {
+  "restfulbooker": {
+    "base": "https://restful-booker.herokuapp.com",
+    "admin": {
+      "username": "admin",
+      "password": "password123"
+    },
+    "bookingData": {
+    "firstname": "Naledi",
+    "lastname": "Makena",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-12-01",
+      "checkout": "2025-12-10"
+    },
+    "additionalneeds": "Breakfast"
   }
+}
 }
