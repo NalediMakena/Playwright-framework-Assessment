@@ -1,0 +1,5 @@
+{
+    "restfulbooker": {
+    "admin": { "username": "admin", "password": "password123" }
+  }
+}
