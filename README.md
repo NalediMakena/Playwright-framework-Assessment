@@ -29,11 +29,18 @@ Playwright JS test framework demonstrating UI and API test automation skills
 
 ## How to run tests
 -Run all tests:
- npm test
+ npx playwright test
 
 -Run only UI tests:
- npm run test:ui
+ npx playwright test tests/saucedemoUi
 
 -Run only API tests:
+ npx playwright test tests/bookerApi
+
+##Test Reports
+-HTML Report: playwright-report/index.html
+-Monocart Report: monocart-report.html
+## Notes:
+-AI tools were used to refine and optimize code and documentation, but all implementation, design decisions, and testing logic were completed independently.
  npm run test:api
 
