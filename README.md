@@ -12,6 +12,9 @@ Playwright JS test framework demonstrating UI and API test automation skills
  checkout 
 -Page Object Model
 
+## Github Actions
+- Added Github actions
+
 ## How to run tests
 -Run all tests:
  npm test

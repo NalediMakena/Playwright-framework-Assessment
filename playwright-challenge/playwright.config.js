@@ -21,7 +21,9 @@ export default defineConfig({
   reporter: [
     ['list'],
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
-    [path.join(__dirname, 'reporter', 'monocart-reporter.js')]
+    [path.join(__dirname, 'reporter', 'monocart-reporter.js')],
+    ['monocart-reporter', { outputFile: 'monocart-report.html' }]
+
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
