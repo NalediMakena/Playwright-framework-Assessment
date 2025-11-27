@@ -6,7 +6,7 @@ const bookingData = users.restfulbooker.bookingData;
 
 let bookingId;
 
-test.describe('Restful Booker - Booking CRUD', () => {
+test.describe('Test Booking CRUD', () => {
   let token;
 
   test.beforeAll(async ({ request }) => {

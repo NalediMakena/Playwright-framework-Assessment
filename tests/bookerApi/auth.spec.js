@@ -5,7 +5,7 @@ const BASE = users.restfulbooker.base;
 const USERNAME = users.restfulbooker.admin.username;
 const PASSWORD = users.restfulbooker.admin.password;
 
-test.describe('Restful Booker - Auth', () => {
+test.describe('Test Auth', () => {
   test('create auth token', async ({ request }) => {
     const resp = await request.post(`${BASE}/auth`, {
       data: { username: USERNAME, password: PASSWORD }
